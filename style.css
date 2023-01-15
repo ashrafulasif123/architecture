@@ -250,6 +250,10 @@ experience section starts
     width: 200px;
     height: 120px;
     border-radius: 5px;
+    transition: transform 1s;
+}
+.experience-btn:hover {
+    transform: rotate(20deg);
 }
 
 .experience-btn h1 {
@@ -295,7 +299,15 @@ facts section starts
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform 1s;
+    /* transition: background-color 1s; */
+
 }
+.facts-item:hover{
+    transform: scale(1.1);
+    
+}
+
 .facts-item h4 {
     font-weight: 600;
     font-size: 35px;
