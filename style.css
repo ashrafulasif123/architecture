@@ -299,13 +299,13 @@ facts section starts
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: transform 1s;
+    transition: transform 1s, background-color 1s;
     /* transition: background-color 1s; */
 
 }
 .facts-item:hover{
     transform: scale(1.1);
-    
+    background-color: chartreuse;
 }
 
 .facts-item h4 {
@@ -365,17 +365,17 @@ work section ends
     gap: 20px;
     justify-content: center;
     align-items: center;
-    background-color: wheat;
-   
 }
 .work-img{
-    flex: 2;
+    flex: 1;
 }
 .work-img img{
     width: 100%;
 }
 .work-hard{
-   flex: 1;
+    background-color: azure;
+    flex: 1;
+    
 }
 
 .work-hard p{
@@ -453,6 +453,10 @@ Media Query
     }
     .work{
        flex-direction: column-reverse;
+    }
+    .facts-item:hover{
+        transform: scale(1.03) rotate(-.8deg);
+        /* background-color: violet; */
     }
 }
 
