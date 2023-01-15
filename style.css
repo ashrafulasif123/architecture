@@ -1,0 +1,503 @@
+/* ----------------- 
+Common Rule Starts
+-------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF900E;
+    color: #fff;
+}
+
+/* ----------------- 
+Common Rule Ends
+-------------------- */
+/* ----------------- 
+Header Start
+-------------------- */
+header {
+    padding: 30px 15px;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* ----------------- 
+menu Start
+-------------------- */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #424242;
+}
+
+nav ul li:hover {
+    background-color: #FF900E;
+
+}
+
+nav ul li:hover a {
+    color: #fff;
+
+}
+
+/* ----------------- 
+menu Ends
+-------------------- */
+/* ----------------- 
+banner starts
+-------------------- */
+.banner {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-description {
+    margin: 25px 0;
+    max-width: 850px;
+    width: 90%;
+}
+.banner-profile {
+    margin-top: 50px;
+}
+
+.banner-profile img {
+    width: 100%;
+}
+
+/* ----------------- 
+menu ends
+-------------------- */
+/* ----------------- 
+Header Ends
+-------------------- */
+/* --------------------- 
+features section starts 
+------------------------
+*/
+
+.features {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.features-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 15px;
+}
+
+.features-img img {
+    width: 48%;
+    height: 342px;
+}
+
+.features-info {
+    padding: 0 20px;
+}
+.features-title-quick {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.features-title-of {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.features-title-feature {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.features-description {
+    margin: 15px 0;
+}
+
+.features-btn {
+    width: 200px;
+}
+
+/* --------------------- 
+features section ends 
+------------------------
+*/
+/* --------------------- 
+experience section starts 
+------------------------
+*/
+
+.experience {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.experience-features {
+    padding-right: 25px;
+}
+
+.experience-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 3px solid #FF900E;
+    padding: 5px 0 5px 20px;
+    margin-bottom: 20px;
+}
+.experience-info {
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.experience-info-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+
+}
+
+.experience-description {
+    margin-top: 5px;
+}
+
+.experience-img {
+    text-align: right;
+    position: relative;
+}
+
+.experience-img img {
+    width: 80%;
+    height: 90%;
+}
+
+.experience-big-btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.experience-btn {
+    width: 200px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.experience-btn h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* --------------------- 
+experience section ends 
+------------------------
+*/
+/* --------------------- 
+facts section starts 
+------------------------
+*/
+
+.facts {
+    margin-top: 50px;
+}
+
+.facts-title,
+.facts-description {
+    padding-left: 15px;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.facts-item {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.facts-item h4 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #424242;
+}
+
+.facts-item p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #727272;
+}
+
+
+/* --------------------- 
+facts section ends 
+------------------------
+*/
+/* --------------------- 
+sponspors section starts 
+------------------------
+*/
+.sponspors {
+    margin-top: 35px;
+}
+.sponspors-description {
+    padding-left: 20px;
+}
+
+.sponspors-products {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sponspors-products img {
+    width: 120px;
+    height: 50px;
+}
+
+/* --------------------- 
+sponspors section ends 
+------------------------
+*/
+/* --------------------- 
+work section ends 
+------------------------
+*/
+
+.work{
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+   
+}
+.work-img{
+    flex: 2;
+}
+.work-img img{
+    width: 100%;
+}
+.work-hard{
+   flex: 1;
+}
+
+.work-hard p{
+    margin-left: 20px;
+}
+
+/* --------------------- 
+work section ends 
+------------------------
+*/
+
+/* --------------------- 
+footer section starts 
+------------------------
+*/
+footer {
+    text-align: center;
+}
+
+footer p {
+    margin: 35px 0;
+    padding: 35px;
+    background-color: rgba(255, 144, 14, 0.1);
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+/* --------------------- 
+footer section ends 
+------------------------
+*/
+
+
+/* ----------------- 
+Media Query
+-------------------- */
+@media only screen and (max-width: 576px) {
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-direction: column-reverse;
+    }
+
+    .banner {
+        padding-top: 50px;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+       
+
+    }
+
+    .features-img {
+        padding: 0 25px;
+        flex-direction: column;
+    }
+
+    .features-img img {
+        width: 100%;
+
+    }
+
+    .facts-container {
+        flex-direction: column-reverse;
+    }
+
+    .facts-item {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .work{
+       flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .experience {
+        grid-template-columns: 1fr;
+
+    }
+
+    .sponspors-products {
+        width: 60%;
+        margin: 35px auto;
+        gap: 40px;
+        justify-content: flex-start;
+    }
+
+    .sponspors-products img {
+        width: 100%;
+    }
+    .work{
+        flex-direction: column-reverse;
+     }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li:first-child {
+        padding-left: 0;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+
+    }
+
+    .features-tiltle-break {
+        display: none;
+    }
+
+    .facts-item {
+        width: 40%;
+        margin: 10px 0;
+
+    }
+
+    .sponspors-products {
+        width: 60%;
+        margin: 35px auto;
+        gap: 40px;
+        justify-content: flex-start;
+    }
+    .work{
+        flex-direction: column-reverse;
+    }
+    
+
+}
+
+/* hide Part */
